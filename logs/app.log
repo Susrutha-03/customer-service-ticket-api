@@ -1,0 +1,93 @@
+2026-11-14 17:49:50,936 - INFO - ticket_api - GET /docs - Status: 200 - Duration: 0.006s
+2026-11-14 17:49:51,610 - INFO - ticket_api - GET /openapi.json - Status: 200 - Duration: 0.252s
+2026-11-14 17:50:10,252 - INFO - ticket_api - GET /tickets/ - Status: 200 - Duration: 0.158s
+2026-11-14 17:54:14,666 - INFO - ticket_api - GET / - Status: 200 - Duration: 0.027s
+2026-11-14 17:54:14,668 - INFO - httpx2 - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2026-11-14 17:54:14,743 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.04s
+2026-11-14 17:54:14,744 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 17:54:14,792 - INFO - ticket_api - POST /tickets/ - Status: 422 - Duration: 0.018s
+2026-11-14 17:54:14,801 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 422 Unprocessable Content"
+2026-11-14 17:54:14,880 - INFO - ticket_api - GET /tickets/ - Status: 200 - Duration: 0.023s
+2026-11-14 17:54:14,881 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 17:54:14,944 - INFO - ticket_api - GET /tickets/9999 - Status: 404 - Duration: 0.024s
+2026-11-14 17:54:14,944 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/9999 "HTTP/1.1 404 Not Found"
+2026-11-14 17:57:38,950 - INFO - ticket_api - GET / - Status: 200 - Duration: 0.015s
+2026-11-14 17:57:38,951 - INFO - httpx2 - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,009 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.036s
+2026-11-14 17:57:39,010 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,035 - INFO - ticket_api - POST /tickets/ - Status: 422 - Duration: 0.005s
+2026-11-14 17:57:39,035 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 422 Unprocessable Content"
+2026-11-14 17:57:39,081 - INFO - ticket_api - GET /tickets/ - Status: 200 - Duration: 0.012s
+2026-11-14 17:57:39,084 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,103 - INFO - ticket_api - GET /tickets/9999 - Status: 404 - Duration: 0.005s
+2026-11-14 17:57:39,104 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/9999 "HTTP/1.1 404 Not Found"
+2026-11-14 17:57:39,133 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.011s
+2026-11-14 17:57:39,134 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,146 - INFO - ticket_api - PUT /tickets/1/assign - Status: 200 - Duration: 0.006s
+2026-11-14 17:57:39,147 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/assign?employee_name=John "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,171 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.008s
+2026-11-14 17:57:39,172 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,197 - INFO - ticket_api - PUT /tickets/1/priority - Status: 200 - Duration: 0.005s
+2026-11-14 17:57:39,197 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/priority?priority=High "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,231 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.011s
+2026-11-14 17:57:39,232 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,245 - INFO - ticket_api - PUT /tickets/1/status - Status: 200 - Duration: 0.006s
+2026-11-14 17:57:39,246 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/status?status=In+Progress "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,286 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.015s
+2026-11-14 17:57:39,286 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 17:57:39,304 - INFO - ticket_api - GET /tickets/1/audit - Status: 200 - Duration: 0.007s
+2026-11-14 17:57:39,305 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/1/audit "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,217 - INFO - ticket_api - GET / - Status: 200 - Duration: 0.021s
+2026-11-14 18:05:11,218 - INFO - httpx2 - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,287 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.046s
+2026-11-14 18:05:11,289 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,324 - INFO - ticket_api - POST /tickets/ - Status: 422 - Duration: 0.011s
+2026-11-14 18:05:11,326 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 422 Unprocessable Content"
+2026-11-14 18:05:11,383 - INFO - ticket_api - GET /tickets/ - Status: 200 - Duration: 0.021s
+2026-11-14 18:05:11,386 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,417 - INFO - ticket_api - GET /tickets/9999 - Status: 404 - Duration: 0.011s
+2026-11-14 18:05:11,419 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/9999 "HTTP/1.1 404 Not Found"
+2026-11-14 18:05:11,453 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.011s
+2026-11-14 18:05:11,454 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,464 - INFO - ticket_api - PUT /tickets/1/assign - Status: 200 - Duration: 0.005s
+2026-11-14 18:05:11,465 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/assign?employee_name=John "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,482 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.005s
+2026-11-14 18:05:11,482 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,494 - INFO - ticket_api - PUT /tickets/1/priority - Status: 200 - Duration: 0.007s
+2026-11-14 18:05:11,494 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/priority?priority=High "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,560 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.022s
+2026-11-14 18:05:11,561 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,580 - INFO - ticket_api - PUT /tickets/1/status - Status: 200 - Duration: 0.011s
+2026-11-14 18:05:11,581 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/status?status=In+Progress "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,624 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.012s
+2026-11-14 18:05:11,625 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:05:11,638 - INFO - ticket_api - GET /tickets/1/audit - Status: 200 - Duration: 0.006s
+2026-11-14 18:05:11,639 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/1/audit "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,081 - INFO - ticket_api - GET / - Status: 200 - Duration: 0.029s
+2026-11-14 18:07:20,083 - INFO - httpx2 - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,157 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.049s
+2026-11-14 18:07:20,158 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,198 - INFO - ticket_api - POST /tickets/ - Status: 422 - Duration: 0.011s
+2026-11-14 18:07:20,199 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 422 Unprocessable Content"
+2026-11-14 18:07:20,254 - INFO - ticket_api - GET /tickets/ - Status: 200 - Duration: 0.012s
+2026-11-14 18:07:20,255 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,308 - INFO - ticket_api - GET /tickets/9999 - Status: 404 - Duration: 0.018s
+2026-11-14 18:07:20,309 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/9999 "HTTP/1.1 404 Not Found"
+2026-11-14 18:07:20,360 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.011s
+2026-11-14 18:07:20,362 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,378 - INFO - ticket_api - PUT /tickets/1/assign - Status: 200 - Duration: 0.008s
+2026-11-14 18:07:20,379 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/assign?employee_name=John "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,422 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.013s
+2026-11-14 18:07:20,425 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,438 - INFO - ticket_api - PUT /tickets/1/priority - Status: 200 - Duration: 0.007s
+2026-11-14 18:07:20,439 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/priority?priority=High "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,479 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.012s
+2026-11-14 18:07:20,480 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,490 - INFO - ticket_api - PUT /tickets/1/status - Status: 200 - Duration: 0.007s
+2026-11-14 18:07:20,491 - INFO - httpx2 - HTTP Request: PUT http://testserver/tickets/1/status?status=In+Progress "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,525 - INFO - ticket_api - POST /tickets/ - Status: 200 - Duration: 0.011s
+2026-11-14 18:07:20,526 - INFO - httpx2 - HTTP Request: POST http://testserver/tickets/ "HTTP/1.1 200 OK"
+2026-11-14 18:07:20,539 - INFO - ticket_api - GET /tickets/1/audit - Status: 200 - Duration: 0.006s
+2026-11-14 18:07:20,540 - INFO - httpx2 - HTTP Request: GET http://testserver/tickets/1/audit "HTTP/1.1 200 OK"
+2026-11-14 18:08:07,490 - INFO - ticket_api - GET /docs - Status: 200 - Duration: 0.003s
+2026-11-14 18:08:07,860 - INFO - ticket_api - GET /openapi.json - Status: 200 - Duration: 0.105s

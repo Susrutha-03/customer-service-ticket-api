@@ -1,0 +1,47 @@
+
+# Project Requirements
+
+## 1. Project Objective
+Develop a REST API to manage customer service tickets, including creation, assignment, prioritization, searching, SLA tracking, and audit history.
+
+## 2. Functional Requirements
+
+1. Create customer support tickets.
+2. Retrieve all tickets and individual tickets.
+3. Search tickets by keyword, status, and priority.
+4. Assign tickets to employees.
+5. Update ticket priority.
+6. Update ticket status.
+7. Calculate SLA deadlines based on ticket priority.
+8. Identify overdue tickets.
+9. Maintain audit history for ticket activities.
+
+## 3. Non-Functional Requirements
+
+- Modular and maintainable Python code.
+- Input validation.
+- Error handling for invalid or missing records.
+- Application logging.
+- Automated testing.
+- Environment-based configuration.
+- Organized documentation.
+
+## 4. Technology Requirements
+
+- Python
+- FastAPI
+- SQLite
+- SQLAlchemy
+- Pydantic
+- Pytest
+- Uvicorn
+- Python-dotenv
+
+## 5. Success Criteria
+
+- API endpoints respond correctly.
+- Invalid ticket data is rejected.
+- SLA deadlines are calculated.
+- Ticket updates are recorded in audit history.
+- Automated tests pass.
+- Setup and execution instructions are documented.
